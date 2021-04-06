@@ -1,9 +1,37 @@
-import logo from './Logo-icon.svg';
-import './App.css';
+/* eslint-disable react/react-in-jsx-scope */
+import logo from "./Logo.svg";
+// import todoApp from "./todo-app.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
+      <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header"></header>
+      <button className="contact">Contact</button>
+      <div className="intro">
+        <div className="block-side"></div>
+        <p>
+          Laba, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris.
+        </p>
+      </div>
+      <article>
+        <div className="container-desc">
+          <h2></h2>
+          <p></p>
+          <div className="container-btn">
+            <button>GitHub</button>
+            <button>Demo</button>
+          </div>
+        </div>
+        <div className="article-img">
+          <div></div>
+        </div>
+        </article>
+=======
       <article className="PHP-shop">
         Edit <code>src/App.js</code> and save to reload.
       </article>
@@ -13,6 +41,7 @@ function App() {
       <article className="React-Native-applets">
         Edit <code>src/App.js</code> and save to reload.
       </article>
+>>>>>>> refs/remotes/origin/design-project
     </div>
   );
 }

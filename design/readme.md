@@ -71,4 +71,3 @@ Structure of the website is simple. Goal is to give access to project or contact
 ## Wireframe
 
 ![wireframe](wireframe.png)
-
