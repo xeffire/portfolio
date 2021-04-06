@@ -7,29 +7,35 @@ Goberis.lt is a personal portfolio website of Web Developement works. The main a
 
 The website is aimed at prospect employers or personal friends and family.
 
+## Moodboard
+
+![Moodboard](moodboard.png)
+
 ## Design choice
 
-Website should be ```clean``` and unclutered. Design itself shouldn't draw too much attention but concentrate it on the links to the projects.
+Website is ```clean``` and ```light```. Design itself shouldn't draw too much attention but concentrate it on the links to the projects.
+Light background makes site look morer profesional
 
-Main thematic should be ```light```, filled with whitespace. A lot of white, in my consideration, should make website look more professional. Also, it helps with cleanliness aspect.
+Color pallet is composed of ```Navy blue``` and ```gradient of Violet-Cyan```. Navy blue is main color for text, buttons and borders. Violet-Cyan is used as accent or CTO. 
 
-Main content needs to be centered, taking no more than 1/2 of space.
+Buttons are comparativly ```large``` in size. All borders are rounded my 5px except ```top-left 36px```. Filler collor is Navy blue, with gradient 'leaf' to the left as embelishment . While hovering, fill changes to Violet-Cyan gradient.
 
-Content should be seperated into 'articles'. Each article represents one project. 
+Content is split in two columns.
 
-Article should contain short description of the project, visual represantation of the project, tags of technologies used or quality aspects of the project. Parts of article should be layed out vertically from felt to right.
+First view of the site is header containing Logo, ```introduction``` and shortcut to cantact area.
 
-Center piece contains image of the website and link to ```github``` bellow it. Image is clickable and routes to the project. It has to have ```clear indication```, that it is a link.
+Following, articles of Projects. Left side of the ```project``` contains description and links to the Demo and Github pages. Right side shows project's snapshot.
 
-Tags layed out in a column with most ```important technologies or skills``` used on the top and other accessory qualities bellow.
+At the bottom, email ```contact``` form and other channels of communication.
+
 
 ## Technologies used for final website
 
- For design - main software used was ```Figma``` for logo and wireframe reprezentation. ```Chrome color picker``` extension for quickly getring color codes form online pictures. Dribbble.com, was the main source of inspiration. 
+ For design - main software used was ```Figma``` for logo and wireframe reprezentation. ```Chrome color picker``` extension for quickly getring color codes form online pictures. Dribbble.com; onepagelove.com was the main source of inspiration. 
 
  For website building - main framework is ```React```. No CSS libraries or precompilers were used. In addition to React, ``NPM and command console`` were used.
 
- ```VScode``` and it's packages for writing source code.
+ ```VScode``` and it's packages like ```ESlint``` for writing source code.
 ## Logo
 
 |||
@@ -47,9 +53,7 @@ Reasoning for rules are oriented toword achieving ```pleasant aesthetics```. Des
 
 Logo can be easily divided into 16 squares and within each square, stroke happens to be simple arch.
 
-In final product, ```I won't be using Logo```. Instead of logo, It will be simple G letter. Graphical logos are more suitable for bussines and not for personal brands.
 
-## Moodboard
 
 ## Website plan
 
@@ -64,4 +68,6 @@ Structure of the website is simple. Goal is to give access of needed project or 
 ↳ Contacts
 ~~~
 
-## Wireframes
+## Wireframe
+
+![wireframe](wireframe.png)
