@@ -6,7 +6,6 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       <img src={logo} className="App-logo" alt="logo" />
       <header className="App-header"></header>
       <button className="contact">Contact</button>
@@ -31,17 +30,6 @@ function App() {
           <div></div>
         </div>
         </article>
-=======
-      <article className="PHP-shop">
-        Edit <code>src/App.js</code> and save to reload.
-      </article>
-      <article className="Text-readability">
-        Edit <code>src/App.js</code> and save to reload.
-      </article>
-      <article className="React-Native-applets">
-        Edit <code>src/App.js</code> and save to reload.
-      </article>
->>>>>>> refs/remotes/origin/design-project
     </div>
   );
 }
