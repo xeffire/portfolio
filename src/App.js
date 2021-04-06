@@ -1,23 +1,35 @@
-import logo from './Logo-icon.svg';
-import './App.css';
+/* eslint-disable react/react-in-jsx-scope */
+import logo from "./Logo.svg";
+// import todoApp from "./todo-app.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header"></header>
+      <button className="contact">Contact</button>
+      <div className="intro">
+        <div className="block-side"></div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Laba, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <article>
+        <div className="container-desc">
+          <h2></h2>
+          <p></p>
+          <div className="container-btn">
+            <button>GitHub</button>
+            <button>Demo</button>
+          </div>
+        </div>
+        <div className="article-img">
+          <div></div>
+        </div>
+        </article>
     </div>
   );
 }
